@@ -48,10 +48,10 @@ repositories {
 
 dependencies {
     implementation("com.github.jjohannes.web3j-solidity-gradle-plugin:org.web3j.solidity.gradle.plugin:$solidityPluginVersion")
-    implementation("org.web3j:core:$web3jVersion") {
+    implementation("org.web3j:core:4.14.0") {
         exclude group: 'org.slf4j', module: 'slf4j-nop'
     }
-    implementation("org.web3j:codegen:$web3jVersion") {
+    implementation("org.web3j:codegen:4.14.0") {
         exclude group: 'org.slf4j', module: 'slf4j-nop'
     }
 
